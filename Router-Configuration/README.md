@@ -52,15 +52,7 @@ Router(config)# do sh run
 4. Click the router and open the **CLI** tab.
 5. Try the commands listed above.
 
-## Next Practice
-
-After completing this initial lab, practise the following in a separate copy of the file:
-
-1. Set a hostname for the router.
-2. Configure an IP address on a router interface.
-3. Enable the interface with `no shutdown`.
-4. Verify the interface using `show ip interface brief`.
-5. Save the configuration using `copy running-config startup-config`.
+fig`.
 
 ## Author
 
