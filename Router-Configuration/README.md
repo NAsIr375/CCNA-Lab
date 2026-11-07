@@ -25,11 +25,23 @@ A beginner-level Cisco Packet Tracer lab for exploring a router's CLI and checki
 ```text
 Router> enable
 Router# configure terminal
-Router(config)# do show running-config
-Router(config)# do show ip interface brief
-Router(config)# exit
-Router# show running-config
-Router# show startup-config
+Router(config)# hostname R01
+R01(config)# do show running-config
+R01(config)# enable password 12364
+R01(config)# service password-encryption (for md-7 encryption)
+R01(config)# enable secret 123654 (foe md-5 encryption)
+R01(config)# do wr
+R01(config)# do show ip interface brief
+R01(config)# exit
+R01# show running-config
+R01# show startup-config
+
+console port command:
+R01(config)# username Nasir secret(for password) 123654
+R01(config)# line console 0
+R01(config-line)# login local
+R01(config-line)# do wr
+
 ```
 
 ### Important Command
