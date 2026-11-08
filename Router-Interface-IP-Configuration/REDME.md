@@ -89,12 +89,12 @@ copy running-config startup-config
 - `do` allows an EXEC command, such as `show` or `write`, to be run from configuration mode.
 - This lab configures interface IP addresses only. It does not configure static routes, dynamic routing protocols, DHCP, or NAT.
 
-## Verification Checklist
+## Verification 
 
-- [ ] IP addresses assigned to all three interfaces.
-- [ ] All three interfaces enabled with `no shutdown`.
-- [ ] Interface status checked with `show ip interface brief`.
-- [ ] Configuration saved to startup-config.
+ IP addresses assigned to all three interfaces.
+ All three interfaces enabled with `no shutdown`.
+ Interface status checked with `show ip interface brief`.
+ Configuration saved to startup-config.
 
 ## Learning Outcomes
 
