@@ -60,7 +60,7 @@ Router(config)# do sh run
 
 1. Open Cisco Packet Tracer.
 2. Select **File → Open**.
-3. Open `basic-router-configuration.pkt`.
+3. Open `Router configuration.pkt`.
 4. Click the router and open the **CLI** tab.
 5. Try the commands listed above.
 
