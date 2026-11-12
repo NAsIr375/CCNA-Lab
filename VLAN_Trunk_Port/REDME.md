@@ -1,4 +1,4 @@
-# VLAN and Trunking Configuration 
+# VLAN and Trunking Configuration(Static)
 
 ## Project Overview
 
