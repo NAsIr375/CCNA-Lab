@@ -1,4 +1,4 @@
-# VLAN and Trunking Configuration – Two Buildings
+# VLAN and Trunking Configuration 
 
 ## Project Overview
 
